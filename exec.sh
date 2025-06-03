@@ -4,7 +4,7 @@ DIR = "$HOME/.wallpaper/wallpapers"
 
 IMG=($(find "$DIR" -type f \( -name '*.jpg' -o -iname '*.png' -o -iname '*.gif' \)))
 
-if [ ${#IMG[@} -eq 0 ]; then
+if [ ${#IMG[@]} -eq 0 ]; then
 	exit 1
 fi
 
