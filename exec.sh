@@ -1,3 +1,5 @@
+#!
+
 DIR = "$HOME/.wallpaper/wallpapers"
 
 IMG=($(find "$DIR" -type f \( -name '*.jpg' -o -iname '*.png' -o -iname '*.gif' \)))
