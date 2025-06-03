@@ -1,0 +1,9 @@
+[Unit]
+Description=Ensuring people lock their screen
+
+[Service]
+ExecStart=%h/.wallptool/exec.sh
+Type=simple
+
+[Install]
+WantedBy=default.target
