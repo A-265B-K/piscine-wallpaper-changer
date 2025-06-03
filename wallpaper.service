@@ -1,8 +1,8 @@
 [Unit]
-Description=Ensuring people lock their screen
+Description=meow meow meow meow!!!
 
 [Service]
-ExecStart=%h/.wallptool/exec.sh
+ExecStart=%h/.kitty_wallp/exec.sh
 Type=simple
 
 [Install]
