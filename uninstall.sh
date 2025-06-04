@@ -17,7 +17,7 @@ URI="file://$WALLP"
 gsettings set org.gnome.desktop.background picture-uri "$URI"
 gsettings set org.gnome.desktop.background picture-uri-dark "$URI"
 
-rm -rf $HOME/.kitty_walla
+rm -rf $HOME/.kitty_wall
 rm $HOME/.config/systemd/user/wallpaper.service
 
 echo "unfortunately got rid of the cat wallpaper :("
