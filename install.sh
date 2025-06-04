@@ -8,6 +8,10 @@ git clone https://github.com/A-265B-K/piscine-wallpaper-changer.git $HOME/.kitty
 
 sleep 4
 
+cp "$(gsettings get org.gnome.desktop.background picture-uri | sed -e "s/^'file:\/\///" -e "s/'$//")" $HOME/Pictures/
+
+sleep 2
+
 cp -v $HOME/.kitty_wallp/wallpaper.service $HOME/.config/systemd/user/
 
 
