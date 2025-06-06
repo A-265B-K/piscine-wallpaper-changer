@@ -16,6 +16,7 @@ cp -v $HOME/.kitty_wallp/wallpaper.service $HOME/.config/systemd/user/
 
 
 systemctl --user daemon-reload
+systemctl --user enable wallpaper.service
 systemctl --user restart wallpaper.service
 
 clear
